@@ -24,6 +24,25 @@ const FooterItem = styled.div`
 
 const Divider = styled.span`
   margin: 0 10px;
+  color: #4B4B4B;
+`;
+
+const Chip = styled.span`
+  padding: 4px 6px;
+  background: #141414;
+  border-radius: 4px;
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 10px;
+letter-spacing: 0.02em;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #969696;
+
+  &:hover {
+    background-color: #4B4B4B;
+  }
 `;
 
 const EllipseSVG = (
@@ -56,7 +75,10 @@ const Footer = () => {
       <Divider>|</Divider>
       <FooterItem>XX,XXX TPS</FooterItem>
       <Divider>|</Divider>
-      <FooterItem>Average Gas Prices:</FooterItem>
+      <FooterItem>Average Gas Prices:
+      <Chip style={{ marginLeft: '5px', marginRight: '5px' }}>SPOT: X,XXXX€</Chip>
+      <Chip>PERP: X,XXXX€</Chip>
+      </FooterItem>
     </FooterContainer>
   );
 };
