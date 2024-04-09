@@ -7,13 +7,13 @@ import tableStore, { TokenInfo } from './TableStore';
 const TableContainer = styled.table`
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid #ddd;
+  border: 1px solid #4B4B4B;
 `;
 
 const TableHeaderCell = styled.th`
   width: 25%;
   padding: 8px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #4B4B4B;
   font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 400;
@@ -28,7 +28,7 @@ const TableHeaderCell = styled.th`
 const LastTableHeaderCell = styled.th`
   width: 25%;
   padding: 8px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #4B4B4B;
   font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 400;
@@ -43,7 +43,7 @@ const LastTableHeaderCell = styled.th`
 const SecondTableHeaderCell = styled.th`
   width: 25%;
   padding: 8px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #4B4B4B;
   font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 400;
@@ -58,13 +58,13 @@ const SecondTableHeaderCell = styled.th`
 
 const TableCell = styled.td`
   padding: 8px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #4B4B4B;
   text-align: left;
 `;
 
 const LastTableCell = styled.td`
   padding: 8px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #4B4B4B;
   text-align: right; /* Align content to the right */
 `;
 
@@ -94,8 +94,8 @@ const MiddleTokenSymbolCell = styled(TableCell)`
 
 const Button = styled.button`
   box-sizing: border-box;
-  padding: 8px 35px;
-  border: 1px solid #4B4B4B;
+  padding: 12px 35px;
+  border: 1px solid #ddd;
   border-radius: 32px;
   background-color: transparent;
   color: #4B4B4B;
